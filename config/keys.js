@@ -1,4 +1,5 @@
 module.exports = {
 	mongoURI:
-		"mongodb+srv://oghene:oghene@cluster0-dhnyj.mongodb.net/test?retryWrites=true"
+		"mongodb+srv://oghene:oghene@cluster0-dhnyj.mongodb.net/test?retryWrites=true",
+	secretOrKey: "secret"
 };
