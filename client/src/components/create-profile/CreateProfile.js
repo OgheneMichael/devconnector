@@ -193,7 +193,7 @@ class CreateProfile extends Component {
 									name="githubusername"
 									value={this.state.githubusername}
 									onChange={this.onChange}
-									error={errors.skills}
+									error={errors.githubusername}
 									info="If you want your latest repos and a Github link, include your username"
 								/>
 								<TextAreaFieldGroup
