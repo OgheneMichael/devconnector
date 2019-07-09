@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import isEmpty from "../../validation/is-empty";
 
 class ProfileHeader extends Component {
-	// static propTypes = {
-	// 	prop: PropTypes
-	// };
+	static propTypes = {
+		profile: PropTypes.object.isRequired
+	};
 
 	render() {
 		const { profile } = this.props;
