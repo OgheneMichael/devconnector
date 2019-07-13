@@ -5,10 +5,6 @@
 	"main": "server.js",
 	"author": "Oghene Michael",
 	"license": "MIT",
-	"engines": {
-		"node": "11.x",
-		"yarn": "1.15.2"
-	},
 	"scripts": {
 		"client-install": "yarn --cwd client install",
 		"start": "node server.js",
