@@ -5,5 +5,5 @@ yarn-debug.log*
 .next
 .eslintcache
 build/Release
-yarn.lock
+# yarn.lock
 /config/keys_dev.js
